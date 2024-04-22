@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>demo</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>abc-test-springboot-jdk8</module>
+        <module>abc-test-springboot-jdk17</module>
+        <module>elasticsearch</module>
+        <module>java-base</module>
+        <module>java-proxy</module>
+        <module>java-webservice</module>
+        <module>netty</module>
+        <module>spring-aop</module>
+        <module>spring-bean</module>
+        <module>spring-mvc</module>
+        <module>spring-mvc-mybatis</module>
+        <module>spring-mybatis</module>
+        <module>spring-mybatis-annotation</module>
+        <module>spring-web-vue-base</module>
+        <module>springboot-file-uploader</module>
+        <module>springboot-quartz</module>
+        <module>springboot-websocket</module>
+        <module>springboot-xxl-job</module>
+    </modules>
+
+</project>
