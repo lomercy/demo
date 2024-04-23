@@ -4,7 +4,6 @@ import java.util.List;
 
 import bean.Goods;
 import bean.GoodsLog;
-import lombok.Data;
 import mapper.GoodsMapper;
 import service.GoodsLogService;
 import service.GoodsService;
