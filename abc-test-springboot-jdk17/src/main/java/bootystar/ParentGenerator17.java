@@ -27,6 +27,7 @@ public class ParentGenerator17 {
                 .packageConfigBuilder()
                 .parent("bootystar.test")
                 .entity("entity.pojo")
+                .xml("mapper")
 //                .pathInfo(Collections.singletonMap(OutputFile.xml, projectPath + "/aa-test/src/main/resources/xml"))
 
         ;  // 指定输出目录
