@@ -16,4 +16,5 @@ docker run -dt                                  \
   -v /etc/default/minio:/etc/config.env         \
   -e "MINIO_CONFIG_ENV_FILE=/etc/config.env"    \
   --name "minio_local"                          \
+  --restart=always                              \
   quay.io/minio/minio server --console-address ":9001"

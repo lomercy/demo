@@ -1,6 +1,7 @@
 package bootystar;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.generator.config.rules.DateType;
 import io.github.bootystar.mybatisplus.generator.CrudGenerator;
 
 
@@ -19,7 +20,7 @@ public class CurdGenerator8 {
 
         generator
                 .globalConfigBuilder()
-//                .dateType(DateType.ONLY_DATE)
+                .dateType(DateType.TIME_PACK)
                 .enableSwagger()
                 .outputDir(projectPath+ "/abc-test-springboot-jdk8/src/main/java")
         ;

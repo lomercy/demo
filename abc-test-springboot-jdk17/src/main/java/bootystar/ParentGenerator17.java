@@ -19,7 +19,7 @@ public class ParentGenerator17 {
 
         generator
                 .globalConfigBuilder()
-                .dateType(DateType.ONLY_DATE)
+                .dateType(DateType.TIME_PACK)
 //                .enableSwagger()
                 .outputDir(projectPath+ "/abc-test-springboot-jdk17/src/main/java")
         ;
