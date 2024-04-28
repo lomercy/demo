@@ -21,7 +21,17 @@
         <dependency>
             <groupId>io.github.bootystar</groupId>
             <artifactId>booty-spring-boot-starter</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bootystar</groupId>
+            <artifactId>helper</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
+            <version>8.5.9</version>
         </dependency>
         <dependency>
             <groupId>io.github.bootystar</groupId>
