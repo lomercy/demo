@@ -32,7 +32,6 @@ public class CurdGenerator8 {
 //                .pathInfo(Collections.singletonMap(OutputFile.xml, projectPath + "/aa-test/src/main/resources/xml"))
         ;
 
-        ;  // 指定输出目录
         generator
                 .customConfigBuilder()
                 .enableValidated(true)
