@@ -47,33 +47,33 @@
                     </image>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>com.spotify</groupId>
-                <artifactId>dockerfile-maven-plugin</artifactId>
-                <version>1.4.13</version>
-                <configuration>
-                    <!--                  <username>${docker.username}</username>
-                                      <password>${docker.password}</password>-->
-                    <repository>${docker.namespace}/${project.artifactId}</repository>
-                    <tag>${project.version}</tag>
-                    <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
-                    <buildArgs>
-                        <JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
-                    </buildArgs>
-                    <!--指定Dockerfile的位置-->
-                    <dockerfile>Dockerfile</dockerfile>
-                </configuration>
-                <!--添加如下配置，运行 mvn package 命令便会自动打包镜像-->
-                <executions>
-                    <execution>
-                        <id>default</id>
-                        <goals>
-                            <goal>build</goal>
-                            <goal>push</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>com.spotify</groupId>-->
+<!--                <artifactId>dockerfile-maven-plugin</artifactId>-->
+<!--                <version>1.4.13</version>-->
+<!--                <configuration>-->
+<!--                    &lt;!&ndash;                  <username>${docker.username}</username>-->
+<!--                                      <password>${docker.password}</password>&ndash;&gt;-->
+<!--                    <repository>${docker.namespace}/${project.artifactId}</repository>-->
+<!--                    <tag>${project.version}</tag>-->
+<!--                    <useMavenSettingsForAuth>true</useMavenSettingsForAuth>-->
+<!--                    <buildArgs>-->
+<!--                        <JAR_FILE>${project.build.finalName}.jar</JAR_FILE>-->
+<!--                    </buildArgs>-->
+<!--                    &lt;!&ndash;指定Dockerfile的位置&ndash;&gt;-->
+<!--                    <dockerfile>Dockerfile</dockerfile>-->
+<!--                </configuration>-->
+<!--                &lt;!&ndash;添加如下配置，运行 mvn package 命令便会自动打包镜像&ndash;&gt;-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>default</id>-->
+<!--                        <goals>-->
+<!--                            <goal>build</goal>-->
+<!--                            <goal>push</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
         </plugins>
 
         <resources>
