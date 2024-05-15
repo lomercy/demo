@@ -15,9 +15,6 @@
     </properties>
 
     <modules>
-        <module>abc-test-springboot-jdk8</module>
-        <module>abc-test-springboot-jdk17</module>
-        <module>abc-test-springboot-jdk17-docker</module>
         <module>elasticsearch</module>
         <module>java-base</module>
         <module>java-proxy</module>
