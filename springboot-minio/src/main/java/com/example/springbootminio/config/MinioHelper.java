@@ -16,7 +16,7 @@ public class MinioHelper {
     private MinioClient minioClient =MinioClient
             .builder()
             .endpoint("http://192.168.56.104:9000")
-            .credentials("booty", "minioadmin")
+            .credentials("admin", "12345678")
             .build();
 
 
